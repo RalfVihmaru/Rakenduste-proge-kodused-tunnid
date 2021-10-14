@@ -30,7 +30,11 @@ function App() {
         show={show}
         setShow={setShow}
       />
-      <Greeting name="Raimo" age="34"/>
+      <Greeting name={"Pets"} residency={"Eesti"} age={"25"}/>
+      <Greeting name={"Mati"} residency={"Venemaa"} age={"-15"}/>
+      <Greeting name={"Kati"} residency={"Hiina"} age={"69"}/>
+      <Greeting name={"Mari"} residency={"Läti"} age={"42"}/>
+     
     </div>
   );
 }
